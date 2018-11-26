@@ -8,7 +8,7 @@ A Qt application to read and plot data from an OBD-II adapter
 
 *Recomenda-se a leitura do relatório.
 
-## Pré-Requisitos e Configuração Inicial
+### Pré-Requisitos e Configuração Inicial
 - Computador com sistema operacional Linux
 - Dispositivo de leitura OBD-II ELM327 (USB ou Bluetooth)
 - Python 2.7.14
@@ -17,7 +17,7 @@ A Qt application to read and plot data from an OBD-II adapter
 
 É necessário atentar-se ao tipo de comunicação do dispositivo de leitura ELM327, caso seja Bluetooth, como o utilizado neste trabalho, deve-se garantir o módulo de comunicação Bluetooth no computador e seguir os passos de configuração adicionais que serão listados abaixo. Ainda, caso o adaptador seja USB, a porta será do tipo *tty* e, caso seja Bluetooth, deverá ser do tipo *RFCOMM*.
 
-###### Conexão Bluetooth
+##### Conexão Bluetooth
 Instale os pacotes<br />
 `$ sudo apt-get install bluetooth bluez-utils blueman`
 
@@ -28,14 +28,14 @@ O primeiro comando irá gerar uma lista com os dispositivos Bluetooth encontrado
 Após conectado, o comando abaixo deverá mostrar todos os dispositivos conectados ao computador via porta *RFCOMM*:<br />
 `$ ls /dev | grep rfcomm`
 
-## OBD Comandos
+### OBD Comandos
 O diretrio contém um programa em Python que retorna uma lista com os comandos aceitos por um veículo.
 
-## OBData
+### OBData
 O diretório contém a aplicação principal.
 
 
-## Créditos
+### Créditos
 Lucas de Camargo Souza<br />
 Edgard Haenisch Porto<br />
 Ester Cavalheiro
