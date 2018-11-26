@@ -7,7 +7,7 @@ A Qt application to read and plot data from an OBD-II adapter
 ###### THIS REPOSITORY IS PART OF A SCHOOL PROJECT UNDER THE SUBJECT OF VEHICULAR NETWORKING, BY THE FEDERAL UNIVERSITY OF SANTA CATARINA (UFSC)
 
 \*Recomenda-se a leitura do relatório.<br />
-\*\* Para se tornar um contribuinte, me comunique via e-mail: lucas_camargo@hotmail.com.br
+\*\* Para se tornar um contribuidor, me comunique via e-mail: lucas_camargo@hotmail.com.br
 
 ### Pré-Requisitos e Configuração Inicial
 - Computador com sistema operacional Linux
