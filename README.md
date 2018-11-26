@@ -30,10 +30,10 @@ Após conectado, o comando abaixo deverá mostrar todos os dispositivos conectad
 `$ ls /dev | grep rfcomm`
 
 #### OBD Comandos
-O diretrio contém um programa em Python que retorna uma lista com os comandos aceitos por um veículo.
+Este diretório contém um programa em Python que retorna uma lista com os comandos aceitos por um veículo.
 
 #### OBData
-O diretório contém a aplicação principal.
+Este diretório contém a aplicação principal.
 
 ### Créditos
 Lucas de Camargo Souza<br />
