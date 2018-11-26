@@ -1,0 +1,62 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="local.OBData">
+    <signal name="ConnectionStatus_changed">
+    </signal>
+    <signal name="ProtocolName_changed">
+    </signal>
+    <signal name="PortName_changed">
+    </signal>
+    <signal name="RPM_changed">
+      <arg type="d" direction="out"/>
+    </signal>
+    <signal name="Speed_changed">
+      <arg type="d" direction="out"/>
+    </signal>
+    <signal name="FuelLevel_changed">
+      <arg type="d" direction="out"/>
+    </signal>
+    <signal name="IntakeTemp_changed">
+      <arg type="d" direction="out"/>
+    </signal>
+    <signal name="MAF_changed">
+      <arg type="d" direction="out"/>
+    </signal>
+    <signal name="ThrottlePos_changed">
+      <arg type="d" direction="out"/>
+    </signal>
+    <signal name="CoolantTemp_changed">
+      <arg type="d" direction="out"/>
+    </signal>
+    <method name="setConnectionStatus">
+      <arg name="s" type="s" direction="in"/>
+    </method>
+    <method name="setProtocolName">
+      <arg name="s" type="s" direction="in"/>
+    </method>
+    <method name="setPortName">
+      <arg name="s" type="s" direction="in"/>
+    </method>
+    <method name="setRPM">
+      <arg name="val" type="d" direction="in"/>
+    </method>
+    <method name="setSpeed">
+      <arg name="val" type="d" direction="in"/>
+    </method>
+    <method name="setFuelLevel">
+      <arg name="val" type="d" direction="in"/>
+    </method>
+    <method name="setIntakeTemp">
+      <arg name="val" type="d" direction="in"/>
+    </method>
+    <method name="setMAF">
+      <arg name="val" type="d" direction="in"/>
+    </method>
+    <method name="setThrottlePos">
+      <arg name="val" type="d" direction="in"/>
+    </method>
+    <method name="setCoolantTemp">
+      <arg name="val" type="d" direction="in"/>
+    </method>
+  </interface>
+</node>
