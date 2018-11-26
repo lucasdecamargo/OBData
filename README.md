@@ -1,6 +1,5 @@
 # OBData
-Um software em Qt para aquisição e plotagem de dados de um adaptador OBD-II
-
+Um software em Qt para aquisição e plotagem de dados de um adaptador OBD-II<br />
 A Qt application to read and plot data from an OBD-II adapter
 
 
