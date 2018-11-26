@@ -6,7 +6,8 @@ A Qt application to read and plot data from an OBD-II adapter
 ###### ESTE REPOSITÓRIO FAZ PARTE DA DISCIPLINA DE TÓPICOS EM PROJETO AUTOMOTIVO, COM ÊNFASE EM REDES VEICULARES, DA UNIVERSIDADE FEDERAL DE SANTA CATARINA (UFSC)
 ###### THIS REPOSITORY IS PART OF A SCHOOL PROJECT UNDER THE SUBJECT OF VEHICULAR NETWORKING, BY THE FEDERAL UNIVERSITY OF SANTA CATARINA (UFSC)
 
-*Recomenda-se a leitura do relatório.
+\*Recomenda-se a leitura do relatório.<br />
+\*\* Para se tornar um contribuinte, me comunique via e-mail: lucas_camargo@hotmail.com.br
 
 ### Pré-Requisitos e Configuração Inicial
 - Computador com sistema operacional Linux
@@ -28,12 +29,11 @@ O primeiro comando irá gerar uma lista com os dispositivos Bluetooth encontrado
 Após conectado, o comando abaixo deverá mostrar todos os dispositivos conectados ao computador via porta *RFCOMM*:<br />
 `$ ls /dev | grep rfcomm`
 
-### OBD Comandos
+#### OBD Comandos
 O diretrio contém um programa em Python que retorna uma lista com os comandos aceitos por um veículo.
 
-### OBData
+#### OBData
 O diretório contém a aplicação principal.
-
 
 ### Créditos
 Lucas de Camargo Souza<br />
